@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/fakeWhite"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/back"
+        android:elevation="3dp">
+        <ImageView
+            android:id="@+id/goBack"
+            android:padding="5dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_back"/>
+    </LinearLayout>
+
+
+
+    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:layout_gravity="bottom"
+        app:icvp_center_page_scale_offset="30dp"
+        app:icvp_max_page_scale="0.8"
+        app:icvp_medium_scaled="true"
+        app:icvp_min_page_scale="0.5"
+        app:icvp_min_page_scale_offset="5dp"
+        app:icvp_scroll_duration="500"/>
+
+</LinearLayout>

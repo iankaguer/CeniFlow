@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_alignParentTop="true"
+        android:layout_width="96dp"
+        android:elevation="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="96dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_support"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="-48dp"
+        android:id="@+id/cardView"
+        android:layout_below="@+id/profile_image"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/TextAppearance.AppCompat.Title"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_height="wrap_content"
+                    android:text="Nom Prenom" />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Parti" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textFontWeight="800"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Resultat" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_weight="1"
+                            android:textFontWeight="800"
+                            android:layout_height="wrap_content"
+                            android:text="22445" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textFontWeight="800"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="33%" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region A" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="253" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="13%" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region 2" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region A" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="253" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="13%" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region 2" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region A" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="253" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="13%" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region 2" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region A" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="253" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="13%" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Region 2" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="15 %" />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
